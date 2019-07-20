@@ -10,4 +10,4 @@ def square_array(array)
   return square_array(square)
 end
 
-square_array(square)
+square_array(array)
