@@ -10,5 +10,5 @@ def square_array(array)
   end
 end
 
-squared_arrays(array)
+squared_arrays(square)
 
