@@ -4,11 +4,8 @@ def square_array(array)
   while count <= array.length do
     squared_arrays = array[count]
     square = squared_arrays ** 2
-    
-    return squared_arrays(square)
     count += 1
+    return squared_arrays(square)
   end
 end
-
-squared_arrays(square)
 
