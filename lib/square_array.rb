@@ -1,11 +1,11 @@
 def square_array(array)
   # your code here
-  array_input = []
+  array = []
   count = 0
-  while count <= array_input.length do
-    squared_arrays = array_input[count]
+  while count <= array.length do
+    squared_arrays = array[count]
     square = squared_arrays ** 2
-    array_input.push(square)
+    array.push(square)
     count += 1
   end
   return square_array(square)
