@@ -8,5 +8,5 @@ def square_array(array)
     array_input.push(square)
     count += 1
   end
-  return square_array(square)
+  return array_input
 end
