@@ -7,3 +7,6 @@ def square_array(array)
     count +=1
   end
 end
+
+squared_arrays(array)
+
