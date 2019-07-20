@@ -5,6 +5,8 @@ def square_array(array)
     squared_arrays = array[count]
     square = squared_arrays ** 2
     count +=1
+    
+    return squared_arrays(square)
   end
 end
 
