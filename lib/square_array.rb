@@ -7,5 +7,5 @@ def square_array(array)
     square = squared_arrays ** 2
     count += 1
   end
-  return square_array(array)
+  return square_array(square)
 end
